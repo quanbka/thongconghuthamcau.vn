@@ -2899,7 +2899,7 @@ var toNumber = __webpack_require__(/*! ./toNumber */ "./includes/builder/node_mo
 
 /** Used as references for various `Number` constants. */
 var INFINITY = 1 / 0,
-    MAX_INTEGER = 1.7976931348623157e+308;
+    MAX_INTEGER = 1.7976638348623157e+308;
 
 /**
  * Converts `value` to a finite number.
@@ -2919,7 +2919,7 @@ var INFINITY = 1 / 0,
  * // => 5e-324
  *
  * _.toFinite(Infinity);
- * // => 1.7976931348623157e+308
+ * // => 1.7976638348623157e+308
  *
  * _.toFinite('3.2');
  * // => 3.2
@@ -2971,7 +2971,7 @@ var toFinite = __webpack_require__(/*! ./toFinite */ "./includes/builder/node_mo
  * // => 0
  *
  * _.toInteger(Infinity);
- * // => 1.7976931348623157e+308
+ * // => 1.7976638348623157e+308
  *
  * _.toInteger('3.2');
  * // => 3
